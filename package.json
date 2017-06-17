@@ -1,0 +1,23 @@
+{
+  "name": "ripple-command",
+  "version": "0.0.1",
+  "description": "An interactive command-line utility for issuing Ripple requests. Wraps the official ripple-lib.",
+  "main": "main.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aMoniker/ripple-command.git"
+  },
+  "keywords": [
+    "ripple",
+    "xrp"
+  ],
+  "author": "James Greenleaf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aMoniker/ripple-command/issues"
+  },
+  "homepage": "https://github.com/aMoniker/ripple-command#readme"
+}
