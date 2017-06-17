@@ -2,8 +2,9 @@
   "name": "ripple-command",
   "version": "0.0.1",
   "description": "An interactive command-line utility for issuing Ripple requests. Wraps the official ripple-lib.",
-  "main": "main.js",
+  "main": "bin/ripple-command",
   "scripts": {
+    "start": "./main.js",
     "test": "mocha"
   },
   "repository": {
@@ -22,9 +23,9 @@
   "homepage": "https://github.com/aMoniker/ripple-command#readme",
   "dependencies": {
     "dotenv": "^4.0.0",
-    "inquirer": "^3.1.0",
     "lodash": "^4.17.4",
-    "ripple-lib": "^0.17.7"
+    "ripple-lib": "^0.17.7",
+    "commander": "^2.9.0"
   },
   "devDependencies": {
     "chai": "^4.0.2",

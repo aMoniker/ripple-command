@@ -1,6 +1,7 @@
 'use strict';
 
 var _ = require('lodash');
+var ripple = require('ripple-lib');
 
 var CommandTypes = {
     PAYMENT: 'payment',
