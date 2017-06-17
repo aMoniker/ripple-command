@@ -4,7 +4,7 @@
   "description": "An interactive command-line utility for issuing Ripple requests. Wraps the official ripple-lib.",
   "main": "main.js",
   "scripts": {
-    "test": "test.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
     "inquirer": "^3.1.0"
   },
   "devDependencies": {
+    "chai": "^4.0.2",
     "mocha": "^3.4.2"
   }
 }
