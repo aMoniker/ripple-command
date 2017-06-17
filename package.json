@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/aMoniker/ripple-command/issues"
   },
-  "homepage": "https://github.com/aMoniker/ripple-command#readme"
+  "homepage": "https://github.com/aMoniker/ripple-command#readme",
+  "dependencies": {
+    "ripple-lib": "^0.17.7",
+    "inquirer": "^3.1.0"
+  }
 }
