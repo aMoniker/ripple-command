@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+# node profiling
+isolate-0x*
