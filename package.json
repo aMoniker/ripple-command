@@ -13,7 +13,9 @@
   },
   "keywords": [
     "ripple",
-    "xrp"
+    "ripple-lib",
+    "xrp",
+    "cryptocurrency"
   ],
   "author": "James Greenleaf",
   "license": "MIT",
